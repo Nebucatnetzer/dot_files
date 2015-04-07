@@ -7,6 +7,7 @@
 export EDITOR=nano
 export MAKEFLAGS='-j4'
 export USE_CCACHE=1
+export PATH=~/bin:$PATH
 alias ls='ls --color=auto'
 
 #aliases für ssh connections
