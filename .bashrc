@@ -6,6 +6,7 @@
 [[ $- != *i* ]] && return
 export EDITOR=nano
 export MAKEFLAGS='-j4'
+export USE_CCACHE=1
 alias ls='ls --color=auto'
 
 #aliases für ssh connections
