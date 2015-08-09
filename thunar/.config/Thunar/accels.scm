@@ -62,7 +62,11 @@
 ; (gtk_accel_path "<Actions>/ThunarStandardView/copy" "<Primary>c")
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-location-selector-pathbar" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/open-trash" "")
+<<<<<<< HEAD
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/be95162f3f23df0a4ea8741d908b1f81" "")
+=======
+; (gtk_accel_path "<Actions>/ThunarActions/Tap::extract-to" "")
+>>>>>>> 5009005a1194e5b3c7450e8f6a19b0acebd554f8
 ; (gtk_accel_path "<Actions>/ThunarStandardView/properties" "<Alt>Return")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/delete" "")
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/82e49474fc63eaad7efc241bba539ada" "")
@@ -77,8 +81,13 @@
 ; (gtk_accel_path "<Actions>/ThunarWindow/close-window" "<Primary>q")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/select-all-files" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/open-location" "<Primary>l")
+<<<<<<< HEAD
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/1880f2a12f6f8c1fe6993e4ac3531ff0" "")
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/1aaac6a415051cb2a93763589d65ba05" "")
+=======
+; (gtk_accel_path "<Actions>/ThunarBookmarks/cac75e372918ab1121eabd9106770b6b" "")
+; (gtk_accel_path "<Actions>/ThunarActions/Tap::extract-here" "")
+>>>>>>> 5009005a1194e5b3c7450e8f6a19b0acebd554f8
 ; (gtk_accel_path "<Actions>/ThunarWindow/zoom-reset" "<Primary>0")
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/5156de42ef5585612f780cf0e449b670" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-statusbar" "")
