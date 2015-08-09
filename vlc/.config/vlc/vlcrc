@@ -945,7 +945,7 @@ qt-privacy-ask=0
 [adjust] # Image properties filter
 
 # Image contrast (0-2) (float)
-#contrast=1.000000
+contrast=0.990000
 
 # Image brightness (0-2) (float)
 #brightness=1.000000
@@ -954,7 +954,7 @@ qt-privacy-ask=0
 #hue=0
 
 # Image saturation (0-3) (float)
-#saturation=1.000000
+saturation=1.240000
 
 # Image gamma (0-10) (float)
 #gamma=1.000000
@@ -1318,7 +1318,7 @@ qt-privacy-ask=0
 [sharpen] # Sharpen video filter
 
 # Sharpen strength (0-2) (float)
-#sharpen-sigma=0.050000
+sharpen-sigma=0.180000
 
 [canvas] # Canvas video filter
 
@@ -3767,10 +3767,10 @@ alsa-gain=0.216000
 #deinterlace-mode=blend
 
 # Video output module (string)
-#vout=
+vout=xcb_glx
 
 # Video filter module (string)
-video-filter=postproc
+video-filter=sharpen:swscale
 
 # Video splitter module (string)
 #video-splitter=
@@ -4040,7 +4040,7 @@ video-filter=postproc
 #packetizer=
 
 # VoD server module (string)
-#vod-server=
+vod-server=any
 
 # Use a plugins cache (boolean)
 #plugins-cache=1

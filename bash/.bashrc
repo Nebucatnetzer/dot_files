@@ -10,19 +10,20 @@ export USE_CCACHE=1
 export PATH=~/bin:$PATH
 alias ls='ls --color=auto -1'
 alias todo='~/Documents/tasks/todo.sh -c -d ~/Documents/tasks/todo.cfg'
-
 set -o vi
 
 #mount network share
 alias mount_elinor='sudo mount -t cifs //elinor/various /mnt/various/ -o user=andreas,password=Morpheus,ip=192.168.1.2'
 
-#aliases für ssh connections
-#schweizer server
+# aliases für ssh connections
+
+## schweizer server
+
 #alias server='ssh nebucatnetzer@185.16.173.105'
 alias capricorn='ssh andreas@5.172.131.120'
 alias elinor='ssh andreas@192.168.1.2'
 
-#hollaendische Server
+## hollaendische Server
 alias testserver='mosh nebucatnetzer@185.13.224.208'
 alias server='mosh nebucatnetzer@185.13.225.67'
 alias update_doku='scp -r Documents/notes/reference/tutorial/linux/01_Server/ nebucatnetzer@185.13.224.208:/home/nebucatnetzer/notes/'
@@ -30,6 +31,7 @@ alias update_doku='scp -r Documents/notes/reference/tutorial/linux/01_Server/ ne
 PS1='[\u@\h \W]\$ '
 
 # function Extract for common file formats
+
 function extract {
  if [ -z "$1" ]; then
     # display usage if no parameters given
