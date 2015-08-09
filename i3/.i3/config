@@ -23,7 +23,7 @@ bindsym $mod+x exec exit_script
 bindsym $mod+s exec search
 bindsym $mod+w exec chromium
 bindsym $mod+e exec terminator -x vim 
-bindsym $mod+f exec terminator -x ranger 
+bindsym $mod+f exec thunar 
 bindsym $mod+Return exec terminator
 #bindsym $mod+d exec j4-dmenu-desktop
 bindsym $mod+c exec i3lock -c 000000
