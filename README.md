@@ -1,6 +1,6 @@
-# config_files
+# dot files
 
-This repository contains backups of my various backups.
+This repository contains backups of my various dot files and custom scripts.
 I use stow to link the config files to their intended place.
 
 In addition I use various scripts to restore specific configurations.
