@@ -12,3 +12,4 @@ stow -t /home/andreas thunar
 stow -t /home/andreas vim
 stow -t /home/andreas vlc
 stow -t /home/andreas fonts
+stow -t /home/andreas bin
