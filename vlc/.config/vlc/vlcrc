@@ -804,7 +804,7 @@ qt-privacy-ask=0
 [postproc] # Video post processing filter
 
 # Post processing quality (integer)
-#postproc-q=6
+postproc-q=1
 
 # FFmpeg post processing filter chains (string)
 #postproc-name=default
@@ -3770,7 +3770,7 @@ alsa-gain=0.216000
 vout=xcb_glx
 
 # Video filter module (string)
-video-filter=sharpen:swscale
+video-filter=sharpen:swscale:postproc
 
 # Video splitter module (string)
 #video-splitter=
