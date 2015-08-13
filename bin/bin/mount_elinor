@@ -1,5 +1,5 @@
 #/bin/bash
-sudo mount -t cifs -o username=andreas,password=Morpheus //192.168.1.2/documents /mnt/documents/
+sudo mount -t cifs //elinor/documents /mnt/documents/ -o user=andreas,password=Morpheus,ip=192.168.1.2 &
 sudo mount -t cifs //elinor/music /mnt/music/ -o user=andreas,password=Morpheus,ip=192.168.1.2 &
 sudo mount -t cifs //elinor/pictures /mnt/pictures/ -o user=andreas,password=Morpheus,ip=192.168.1.2 &
 sudo mount -t cifs //elinor/various /mnt/various/ -o user=andreas,password=Morpheus,ip=192.168.1.2 &
