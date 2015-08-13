@@ -46,6 +46,8 @@ xset b off &
 
 pnmixer &
 
+pamac-tray &
+
 sleep 10s && owncloud &
 
 ## start geary deamon
