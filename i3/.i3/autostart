@@ -52,3 +52,5 @@ sleep 10s && owncloud &
 
 ## start geary deamon
 geary --hidden &
+
+mount_elinor &
