@@ -48,6 +48,8 @@ pnmixer &
 
 pamac-tray &
 
+clipit &
+
 sleep 10s && owncloud &
 
 ## start geary deamon
