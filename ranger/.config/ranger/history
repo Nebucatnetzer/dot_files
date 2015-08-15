@@ -10,5 +10,13 @@ open_with
 open_with viewnior
 delete
 mark_files 
-
 wq
+find todo.txt
+find 
+mkdir books_and_magazines
+rename pdfs
+mkdir epub
+rename pdf
+mkdir pdf
+open_with cmus
+

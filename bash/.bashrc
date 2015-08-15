@@ -1,4 +1,4 @@
-#
+
 # ~/.bashrc
 #
 
@@ -26,7 +26,6 @@ alias elinor='ssh andreas@192.168.1.2'
 ## hollaendische Server
 alias testserver='mosh nebucatnetzer@185.13.224.208'
 alias server='mosh nebucatnetzer@159.253.3.136'
-alias update_doku='scp -r Documents/notes/reference/tutorial/linux/01_Server/ nebucatnetzer@185.13.224.208:/home/nebucatnetzer/notes/'
 
 PS1='[\u@\h \W]\$ '
 
