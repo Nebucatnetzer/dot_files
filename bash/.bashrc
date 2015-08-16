@@ -4,26 +4,28 @@
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
+
+# environment variables
 export EDITOR=vim
 export MAKEFLAGS='-j4'
 export USE_CCACHE=1
 export PATH=~/bin:$PATH
-alias ls='ls --color=auto -1'
-alias todo='~/Documents/tasks/todo.sh -c -d ~/Documents/tasks/todo.cfg'
 set -o vi
 
-#mount network share
-alias mount_elinor='sudo mount -t cifs //elinor/various /mnt/various/ -o user=andreas,password=Morpheus,ip=192.168.1.2'
+#various aliases
+alias ls='ls --color=auto -1'
+alias todo='~/ownCloud/tasks/todo.sh -c -d ~/ownCloud/tasks/todo.cfg'
+alias tv='terminal_velocity'
+alias notes='ranger /home/andreas/ownCloud/notes'
 
-# aliases für ssh connections
+# aliases for  ssh connections
 
 ## schweizer server
-
-#alias server='ssh nebucatnetzer@185.16.173.105'
+alias swiss_server='ssh nebucatnetzer@185.16.173.105'
 alias capricorn='ssh andreas@5.172.131.120'
 alias elinor='ssh andreas@192.168.1.2'
 
-## hollaendische Server
+## Netherland Servers
 alias testserver='mosh nebucatnetzer@185.13.224.208'
 alias server='mosh nebucatnetzer@159.253.3.136'
 

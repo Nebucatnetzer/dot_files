@@ -8,7 +8,6 @@ delete
 D
 open_with 
 open_with viewnior
-delete
 mark_files 
 wq
 find todo.txt
@@ -20,3 +19,4 @@ rename pdf
 mkdir pdf
 open_with cmus
 
+delete
