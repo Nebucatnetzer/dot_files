@@ -13,16 +13,16 @@
 exec ~/.i3/autostart
 exec nm-applet
 
-for_window [title="Xfce4-notifyd"] floating enablew
-for_window [title="xfce4-notifyd"] floating enable
+for_window [title="Xfce4-notifyd"] floating enable
 for_window [class="I3-exit"] floating enable
 for_window [title="File Operation Progress"] floating enable
 for_window [class="^.*"] border pixel 1
+for_window [title="Hangouts"] floating enable
 
 bindsym $mod+x exec exit_script
 bindsym $mod+s exec search
 bindsym $mod+w exec chromium
-bindsym $mod+e exec terminator -x vim 
+bindsym $mod+e exec terminator -x vim 01_inbox/draft.md 
 bindsym $mod+f exec thunar 
 bindsym $mod+Return exec terminator
 #bindsym $mod+d exec j4-dmenu-desktop
