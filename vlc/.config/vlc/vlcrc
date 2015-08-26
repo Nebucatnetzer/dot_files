@@ -804,7 +804,7 @@ qt-privacy-ask=0
 [postproc] # Video post processing filter
 
 # Post processing quality (integer)
-postproc-q=1
+#postproc-q=6
 
 # FFmpeg post processing filter chains (string)
 #postproc-name=default
@@ -945,7 +945,7 @@ postproc-q=1
 [adjust] # Image properties filter
 
 # Image contrast (0-2) (float)
-contrast=0.990000
+#contrast=1.000000
 
 # Image brightness (0-2) (float)
 #brightness=1.000000
@@ -954,7 +954,7 @@ contrast=0.990000
 #hue=0
 
 # Image saturation (0-3) (float)
-saturation=1.240000
+#saturation=1.000000
 
 # Image gamma (0-10) (float)
 #gamma=1.000000
@@ -1318,7 +1318,7 @@ saturation=1.240000
 [sharpen] # Sharpen video filter
 
 # Sharpen strength (0-2) (float)
-sharpen-sigma=0.180000
+#sharpen-sigma=0.050000
 
 [canvas] # Canvas video filter
 
@@ -3506,7 +3506,7 @@ sharpen-sigma=0.180000
 #alsa-audio-channels=6
 
 # Software gain (float)
-alsa-gain=0.216000
+#alsa-gain=1.000000
 
 [amem] # Audio memory output
 
@@ -3767,10 +3767,10 @@ alsa-gain=0.216000
 #deinterlace-mode=blend
 
 # Video output module (string)
-vout=xcb_glx
+#vout=
 
 # Video filter module (string)
-video-filter=sharpen:swscale:postproc
+#video-filter=
 
 # Video splitter module (string)
 #video-splitter=
@@ -4040,7 +4040,7 @@ video-filter=sharpen:swscale:postproc
 #packetizer=
 
 # VoD server module (string)
-vod-server=any
+#vod-server=
 
 # Use a plugins cache (boolean)
 #plugins-cache=1

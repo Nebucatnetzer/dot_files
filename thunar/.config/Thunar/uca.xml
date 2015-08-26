@@ -3,8 +3,8 @@
 <action>
 	<icon>catfish</icon>
 	<name>Find files</name>
-	<unique-id>1429893875532774-1</unique-id>
-	<command>catfish --fileman=thunar --hidden --path=%f</command>
+	<unique-id>1440011201558111-1</unique-id>
+	<command>catfish --path=%f</command>
 	<description>Search for files with Catfish</description>
 	<patterns>*</patterns>
 	<directories/>

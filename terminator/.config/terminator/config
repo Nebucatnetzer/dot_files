@@ -12,7 +12,8 @@
     background_type = transparent
     background_image = None
     icon_bell = False
-    font = Monospace 15
+    font = Source Code Pro 16
+    allow_bold = False
 [layouts]
   [[default]]
     [[[child1]]]
