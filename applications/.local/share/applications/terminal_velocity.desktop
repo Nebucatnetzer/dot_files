@@ -4,4 +4,4 @@ Exec=terminator -x terminal_velocity
 Terminal=false
 Type=Application
 Name[en_GB.UTF-8]=Terminal Velocity
-Icon=chrome-fahmaaghhglfmonjliepjlchgpgfmobi-Default
+Icon=accessories-text-editor
