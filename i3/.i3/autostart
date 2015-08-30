@@ -23,7 +23,7 @@ eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
 ## Set root window colour
 hsetroot -solid "#2E3436" &
 
-rofi -key-run mod4+d -key-window alt-Tab &
+rofi -key-window alt-Tab &
 
 #restore the wallpaper
 nitrogen --restore &

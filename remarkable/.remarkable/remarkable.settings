@@ -1,1 +1,1 @@
-{'word-wrap': True, 'style': 'metro_vibes', 'font': 'Sans 10', 'css': '', 'nightmode': False, 'live-preview': True, 'toolbar': True, 'statusbar': True}
+{'font': 'Sans 10', 'nightmode': False, 'css': '', 'word-wrap': True, 'statusbar': True, 'toolbar': True, 'style': 'metro_vibes', 'live-preview': True}
