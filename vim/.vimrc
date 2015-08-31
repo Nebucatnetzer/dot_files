@@ -16,3 +16,4 @@ set cursorline
 " show the matching part of the pair for [] {} and ()
 set showmatch
 set virtualedit=onemore
+set viminfo=
