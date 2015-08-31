@@ -19,7 +19,7 @@
 
 ## GNOME PolicyKit and Keyring
 eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
-exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 ## Set root window colour
 hsetroot -solid "#2E3436" &
 
