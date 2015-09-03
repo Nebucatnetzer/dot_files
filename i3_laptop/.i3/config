@@ -11,14 +11,25 @@
 
 #My Configs
 exec ~/.i3/autostart
-exec nm-applet
 
-for_window [title="Xfce4-notifyd"] floating enablew
+# defines which windows are floating
 for_window [title="xfce4-notifyd"] floating enable
 for_window [class="I3-exit"] floating enable
 for_window [title="File Operation Progress"] floating enable
+for_window [title="Hangouts"] floating enable
+
+# removes the title bar
 for_window [class="^.*"] border pixel 1
 
+# removes the outer lines
+hide_edge_borders both
+
+# move specific windows to specific screens
+assign [instance="crx_hnpfjngllnobngcgfapefoaidbinmjnm"] 10
+assign [instance="crx_icppfcnhkcmnfdhfhphakoifcfokfdhg"] 7
+assign [instance="crx_nckgahadagoaajjgafhacjanaoiihapd"] 10
+
+# keybinding for launching applications
 bindsym $mod+x exec exit_script
 bindsym $mod+s exec search
 bindsym $mod+w exec chromium
@@ -27,8 +38,8 @@ bindsym $mod+f exec terminator -x ranger
 bindsym $mod+Return exec terminator
 bindsym $mod+d exec j4-dmenu-desktop  --dmenu='rofi -dmenu'
 bindsym $mod+c exec i3lock -c 000000
-bindsym $mod+m  exec vlc
-bindsym $mod+t  exec geary
+bindsym $mod+m exec vlc
+bindsym $mod+t exec geary
 
 #default stuff begins
 set $mod Mod4
