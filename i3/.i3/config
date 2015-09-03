@@ -16,20 +16,23 @@ exec ~/.i3/autostart
 for_window [title="Xfce4-notifyd"] floating enable
 for_window [class="I3-exit"] floating enable
 for_window [title="File Operation Progress"] floating enable
-for_window [class="^.*"] border pixel 1
 for_window [class="arma3.i386"] floating enable
-for_window [title="Hangouts"] floating enable
-  
+
 # removes the title bar
 for_window [class="^.*"] border pixel 1
-   
+
+# enable switching between "new" and "old" screen
+workspace_auto_back_and_forth yes
+
 # removes the outer lines
 hide_edge_borders both
     
 # move specific windows to specific screens
-assign [instance="crx_hnpfjngllnobngcgfapefoaidbinmjnm"] 10
-assign [instance="crx_icppfcnhkcmnfdhfhphakoifcfokfdhg"] 7
-assign [instance="crx_nckgahadagoaajjgafhacjanaoiihapd"] 10
+assign [instance="crx_hnpfjngllnobngcgfapefoaidbinmjnm"] 10: Chats
+assign [instance="crx_icppfcnhkcmnfdhfhphakoifcfokfdhg"] 7: Music
+assign [instance="crx_nckgahadagoaajjgafhacjanaoiihapd"] 10: Chats
+assign [class="Steam"] 9: Steam
+assign [class="Geary"] 8: Mail
 
 # custom keybindings
 bindsym $mod+x exec exit_script
@@ -44,9 +47,9 @@ bindsym $mod+m exec vlc
 bindsym $mod+t exec geary
 
 # bind workspaces to a specific monitor
-
 workspace 1 output DVI-I-1
 workspace 2 output DVI-D-0
+workspace 7 output DVI-I-1
 workspace 8 output DVI-I-1
 workspace 9 output DVI-I-1
 workspace 10 output DVI-I-1
@@ -116,10 +119,10 @@ bindsym $mod+3 workspace 3
 bindsym $mod+4 workspace 4
 bindsym $mod+5 workspace 5
 bindsym $mod+6 workspace 6
-bindsym $mod+7 workspace 7
-bindsym $mod+8 workspace 8
-bindsym $mod+9 workspace 9
-bindsym $mod+0 workspace 10
+bindsym $mod+7 workspace 7: Music
+bindsym $mod+8 workspace 8: Mail
+bindsym $mod+9 workspace 9: Steam
+bindsym $mod+0 workspace 10: Chats
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace 1
@@ -128,10 +131,10 @@ bindsym $mod+Shift+3 move container to workspace 3
 bindsym $mod+Shift+4 move container to workspace 4
 bindsym $mod+Shift+5 move container to workspace 5
 bindsym $mod+Shift+6 move container to workspace 6
-bindsym $mod+Shift+7 move container to workspace 7
-bindsym $mod+Shift+8 move container to workspace 8
-bindsym $mod+Shift+9 move container to workspace 9
-bindsym $mod+Shift+0 move container to workspace 10
+bindsym $mod+Shift+7 move container to workspace 7: Music
+bindsym $mod+Shift+8 move container to workspace 8: Mail
+bindsym $mod+Shift+9 move container to workspace 9: Steam
+bindsym $mod+Shift+0 move container to workspace 10: Chats
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -139,18 +142,6 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $Ctrl+Alt+Del exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
-
-### Unused
-#Shift Focus
-#bindsym $mod+j focus left
-#bindsym $mod+k focus down
-#bindsym $mod+l focus up
-#bindsym $mod+odiaeresis focus right
-# move focused window
-#bindsym $mod+Shift+j move left
-#bindsym $mod+Shift+k move down
-#bindsym $mod+Shift+l move up
-#bindsym $mod+Shift+odiaeresis move right
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
