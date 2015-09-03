@@ -11,7 +11,6 @@
 
 #My Autostart script
 exec ~/.i3/autostart
-<<<<<<< HEAD
 
 # Application specific settings
 for_window [title="Xfce4-notifyd"] floating enable
@@ -19,13 +18,6 @@ for_window [class="I3-exit"] floating enable
 for_window [title="File Operation Progress"] floating enable
 for_window [class="^.*"] border pixel 1
 for_window [class="arma3.i386"] floating enable
-=======
- 
-# defines which windows are floating
-for_window [title="xfce4-notifyd"] floating enable
-for_window [class="I3-exit"] floating enable
-for_window [title="File Operation Progress"] floating enable
->>>>>>> e94057c4c89844c44a8c251663d5727f45edfe79
 for_window [title="Hangouts"] floating enable
   
 # removes the title bar
