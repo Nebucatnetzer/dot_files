@@ -19,6 +19,10 @@
 
 ## GNOME PolicyKit and Keyring
 eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+# Starting network manager applet
+exec nm-applet &
 
 ## Set root window colour
 hsetroot -solid "#2E3436" &
