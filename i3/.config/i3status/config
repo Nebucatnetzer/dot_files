@@ -14,6 +14,7 @@ general {
 order += "disk /"
 order += "run_watch DHCP"
 order += "ethernet enp7s0"
+order += "volume master"
 order += "tztime local"
 
 ethernet enp7s0 {
@@ -28,10 +29,18 @@ run_watch DHCP {
 
 
 tztime local {
-        format = "%Y-%m-%d %H:%M:%S"
+        format = "%d.%m.%Y %H:%M|"
 }
 
 
 disk "/" {
         format = "%free"
+}
+
+volume master {
+    format = "♪: %volume"
+    format_muted = "♪: muted"
+    device = "default"
+    mixer = "Master"
+    mixer_idx = 0
 }
