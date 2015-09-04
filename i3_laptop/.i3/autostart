@@ -25,6 +25,9 @@ xset r rate 250 25 &
 ## enabling numlock
 numlockx on &
 
+## starting clipit for better copy & paste
+clipit &
+
 # start xflux to minimise eye strain
 xflux -l 47.188247 -g 7.703133 &
 
