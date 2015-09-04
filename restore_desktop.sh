@@ -1,5 +1,6 @@
 #/bin/bash
 
+stow -t /home/andreas applications
 stow -t /home/andreas bash
 stow -t /home/andreas filezilla
 stow -t /home/andreas geany
