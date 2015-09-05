@@ -49,9 +49,9 @@ bindsym $mod+t exec geary
 # Sound and Media controls
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
-bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5% 
-bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle
+bindsym $mod+F3 exec pactl set-sink-volume 0 +5%
+bindsym $mod+F2 exec pactl set-sink-volume 0 -5% 
+bindsym $mod+F1 exec pactl set-sink-mute 0 toggle
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play
