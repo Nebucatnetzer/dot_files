@@ -31,7 +31,7 @@ assign [instance="crx_hnpfjngllnobngcgfapefoaidbinmjnm"] 10: Chats
 assign [instance="crx_icppfcnhkcmnfdhfhphakoifcfokfdhg"] 7: Music
 assign [instance="crx_nckgahadagoaajjgafhacjanaoiihapd"] 10: Chats
 assign [class="Steam"] 9: Steam
-assign [class="Geary"] 8: Mail 
+assign [class="Geary"] 8: Mail
 
 # focus follows mouse
 focus_follows_mouse no
