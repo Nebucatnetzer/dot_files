@@ -11,6 +11,9 @@ hsetroot -solid "#2E3436" &
 ## start rofi with alt-tab for switching windows
 rofi -key-window alt-Tab &
 
+## starting dunst notification daemon
+exec --no-startup-id dunst &
+
 #restore the wallpaper
 nitrogen --restore &
 sleep 2s &
