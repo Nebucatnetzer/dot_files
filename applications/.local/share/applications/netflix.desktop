@@ -8,3 +8,4 @@ Name=Netflix
 Exec=/usr/bin/chromium --profile-directory=Default --app-id=hjaaapkoiljkjpgpfgckfielajkdjhik
 Icon=chrome-blpcfgokakmgnkcojhhkbfbldkacnbeo-Default
 StartupWMClass=crx_hjaaapkoiljkjpgpfgckfielajkdjhik
+Name[en_GB.UTF-8]=Netflix.desktop

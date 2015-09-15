@@ -16,6 +16,7 @@ alias ls='ls --color=auto -1'
 alias todo='~/ownCloud/tasks/todo.sh -c -d ~/ownCloud/tasks/todo.cfg'
 alias tv='terminal_velocity'
 alias notes='ranger /home/andreas/ownCloud/notes'
+alias i3config='vim .i3/config'
 
 # aliases for  ssh connections
 
@@ -25,8 +26,8 @@ alias capricorn='ssh andreas@5.172.131.120'
 alias elinor='ssh andreas@192.168.1.2'
 
 ## Netherland Servers
-alias testserver='mosh nebucatnetzer@185.13.224.208'
-alias server='mosh nebucatnetzer@159.253.3.136'
+alias testserver='ssh root@185.13.224.208'
+alias server='ssh nebucatnetzer@159.253.3.136'
 
 PS1='[\u@\h \W]\$ '
 
