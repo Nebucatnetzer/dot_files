@@ -38,9 +38,9 @@ assign [class="Geary"] 8: Mail
 bindsym $mod+x exec exit_script
 bindsym $mod+s exec search
 bindsym $mod+w exec chromium
-bindsym $mod+e exec terminator -x vim 01_inbox/draft.md 
+bindsym $mod+e exec termite -e vim 01_inbox/draft.md 
 bindsym $mod+f exec thunar 
-bindsym $mod+Return exec terminator
+bindsym $mod+Return exec termite
 bindsym $mod+d exec j4-dmenu-desktop  --dmenu='rofi -dmenu -no-case-sensitive'
 bindsym $mod+c exec i3lock -c 000000
 bindsym $mod+m exec vlc
