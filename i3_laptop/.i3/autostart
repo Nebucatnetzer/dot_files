@@ -18,6 +18,9 @@ exec --no-startup-id dunst &
 nitrogen --restore &
 sleep 2s &
 
+#enable the compositor
+xcompmgr &
+
 ## Start Thunar Daemon
 thunar --daemon &
 

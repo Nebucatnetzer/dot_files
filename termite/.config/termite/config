@@ -24,11 +24,12 @@ browser = chromium
 
 # 20% background transparency (requires a compositor)
 background = rgba(63, 63, 63, 0.8)
+foreground = #ffffff
 
-#color0 = #3f3f3f
+#color0 = #ffffff
 #color1 = #705050
 #color2 = #60b48a
-#color3 = #dfaf8f
+color3 = #ffffff
 #color4 = #506070
 #color5 = #dc8cc3
 color6 = #8cd0d3

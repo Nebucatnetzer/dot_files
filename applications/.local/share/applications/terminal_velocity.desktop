@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Terminal Velocity
-Exec=terminator -x terminal_velocity
+Exec=termite -e terminal_velocity
 Terminal=false
 Type=Application
 Name[en_GB.UTF-8]=Terminal Velocity
