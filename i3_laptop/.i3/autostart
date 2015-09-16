@@ -2,8 +2,8 @@
 eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
-# Starting network manager applet
-exec nm-applet &
+## Starting network manager applet
+nm-applet &
 
 ## Set root window colour
 hsetroot -solid "#2E3436" &
@@ -11,15 +11,12 @@ hsetroot -solid "#2E3436" &
 ## start rofi with alt-tab for switching windows
 rofi -key-window alt-Tab &
 
-## starting dunst notification daemon
-exec --no-startup-id dunst &
+## enable the compositor
+xcompmgr &
 
-#restore the wallpaper
+## restore the wallpaper
 nitrogen --restore &
 sleep 2s &
-
-#enable the compositor
-xcompmgr &
 
 ## Start Thunar Daemon
 thunar --daemon &
@@ -30,6 +27,9 @@ xset r rate 250 25 &
 
 ## enabling numlock
 numlockx on &
+
+## starting dunst notification daemon
+dunst &
 
 ## starting clipit for better copy & paste
 clipit &
