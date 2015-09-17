@@ -40,9 +40,9 @@ focus_follows_mouse no
 bindsym $mod+x exec exit_script
 bindsym $mod+s exec search
 bindsym $mod+w exec chromium
-bindsym $mod+e exec termite -e vim 
-bindsym $mod+f exec termite -e ranger 
-bindsym $mod+Return exec termite
+bindsym $mod+e exec terminator -x vim 
+bindsym $mod+f exec terminator -x ranger 
+bindsym $mod+Return exec terminator
 bindsym $mod+d exec j4-dmenu-desktop  --dmenu='rofi -dmenu'
 bindsym $mod+c exec i3lock -c 000000
 bindsym $mod+m exec vlc
