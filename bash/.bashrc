@@ -9,6 +9,7 @@ export EDITOR=vim
 export MAKEFLAGS='-j4'
 export USE_CCACHE=1
 export PATH=~/bin:$PATH
+export TERM=xterm
 set -o vi
 eval $(dircolors ~/.dircolors)
 
