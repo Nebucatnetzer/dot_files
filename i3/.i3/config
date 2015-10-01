@@ -135,7 +135,7 @@ bindsym $mod+2 workspace 2: LookUp
 bindsym $mod+3 workspace 3: Terminal
 bindsym $mod+4 workspace 4: TV
 bindsym $mod+5 workspace 5: Todo
-bindsym $mod+6 workspace 6: Tool
+bindsym $mod+6 workspace 6: Tools
 bindsym $mod+7 workspace 7: Music
 bindsym $mod+8 workspace 8: Mail
 bindsym $mod+9 workspace 9: Steam
