@@ -28,9 +28,6 @@ xset r rate 250 25 &
 ## enabling numlock
 numlockx on &
 
-## starting dunst notification daemon
-dunst &
-
 ## starting clipit for better copy & paste
 clipit &
 
