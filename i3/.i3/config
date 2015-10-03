@@ -31,8 +31,6 @@ hide_edge_borders both
 assign [instance="crx_hnpfjngllnobngcgfapefoaidbinmjnm"] 10: Chats
 assign [instance="crx_icppfcnhkcmnfdhfhphakoifcfokfdhg"] 7: Music
 assign [instance="crx_nckgahadagoaajjgafhacjanaoiihapd"] 10: Chats
-assign [class="Terminator"] 3: Terminal
-assign [class="Chromium"] 1: Main
 assign [class="Steam"] 9: Steam
 assign [class="Geary"] 8: Mail
 assign [class="Qtodotxt"] 6: Tools
