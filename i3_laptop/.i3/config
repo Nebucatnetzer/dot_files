@@ -32,8 +32,6 @@ assign [instance="crx_icppfcnhkcmnfdhfhphakoifcfokfdhg"] 7: Music
 assign [instance="crx_nckgahadagoaajjgafhacjanaoiihapd"] 10: Chats
 assign [class="Steam"] 9: Steam
 assign [class="Geary"] 8: Mail
-assign [class="Terminator"] 2: Terminal
-assign [class="Chromium"] 1: Main
 assign [class="Qtodotxt"] 6: Tools
 assign [class="keepassx"] 6: Tools
 
