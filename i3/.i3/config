@@ -62,12 +62,12 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # bind workspaces to a specific monitor
-workspace 1 output DVI-I-1
-workspace 2 output DVI-D-0
-workspace 3 output DVI-I-1
-workspace 7 output DVI-D-0
-workspace 9 output DVI-D-0
-workspace 10 output DVI-D-0
+workspace "1: Main" output DVI-I-1
+workspace "2: Lookup" output DVI-D-0
+workspace "3: Terminal" output DVI-I-1
+workspace "7: Music" output DVI-D-0
+workspace "9: Steam" output DVI-D-0
+workspace "10: Chats" output DVI-D-0
 
 
 #default stuff begins

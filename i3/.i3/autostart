@@ -48,3 +48,6 @@ sleep 10s && owncloud &
 
 ## start geary deamon
 geary --hidden &
+
+## start Back in Time
+/bin/sh -c "backintime pw-cache start 2>&1 >/dev/null &
