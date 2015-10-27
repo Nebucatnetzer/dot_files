@@ -11,6 +11,9 @@ hsetroot -solid "#2E3436" &
 ## start rofi with alt-tab for switching windows
 rofi -key-window alt-Tab &
 
+## start rofi with mod+d for running starting applications
+rofi -key-run mod4+d &
+
 ## enable the compositor
 xcompmgr &
 

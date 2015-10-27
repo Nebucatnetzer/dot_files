@@ -18,12 +18,12 @@
   [[default]]
     allow_bold = False
     background_darkness = 0.79
-    background_image = None
-    background_type = transparent
+    background_image = /home/andreas/Pictures/wallpapers/sience_fiction/1195932813390.jpg
     cursor_color = "#ffffff"
     font = Source Code Pro 14
     foreground_color = "#ffffff"
     icon_bell = False
+    scroll_background = False
+    scrollbar_position = hidden
     show_titlebar = False
     use_system_font = False
-    scrollbar_position=disabled
