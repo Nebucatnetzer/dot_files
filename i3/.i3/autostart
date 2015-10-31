@@ -11,6 +11,9 @@ hsetroot -solid "#2E3436" &
 ## start rofi with alt-tab for switching windows
 rofi -key-window alt-Tab &
 
+## start rofi with mod+d for running starting applications
+rofi -key-run mod4+d &
+
 ## enable the compositor
 xcompmgr &
 
@@ -48,3 +51,6 @@ sleep 10s && owncloud &
 
 ## start geary deamon
 geary --hidden &
+
+## start Back in Time
+/bin/sh -c "backintime pw-cache start 2>&1 >/dev/null &

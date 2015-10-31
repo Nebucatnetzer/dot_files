@@ -17,3 +17,4 @@ set cursorline
 set showmatch
 set virtualedit=onemore
 set viminfo=
+au BufNewFile,BufFilePre,BufRead *.txt set filetype=markdown

@@ -32,6 +32,8 @@ assign [instance="crx_icppfcnhkcmnfdhfhphakoifcfokfdhg"] 7: Music
 assign [instance="crx_nckgahadagoaajjgafhacjanaoiihapd"] 10: Chats
 assign [class="Steam"] 9: Steam
 assign [class="Geary"] 8: Mail
+assign [class="Qtodotxt"] 6: Tools
+assign [class="keepassx"] 6: Tools
 
 # focus follows mouse
 focus_follows_mouse no
@@ -41,7 +43,7 @@ bindsym $mod+x exec exit_script
 bindsym $mod+s exec search
 bindsym $mod+w exec chromium
 bindsym $mod+e exec terminator -x vim 
-bindsym $mod+f exec terminator -x ranger 
+bindsym $mod+f exec thunar
 bindsym $mod+Return exec terminator
 bindsym $mod+d exec j4-dmenu-desktop  --dmenu='rofi -dmenu'
 bindsym $mod+c exec i3lock -c 000000
@@ -107,24 +109,24 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
 # switch to workspace
-bindsym $mod+1 workspace 1
-bindsym $mod+2 workspace 2
+bindsym $mod+1 workspace 1: Main
+bindsym $mod+2 workspace 2: Terminal
 bindsym $mod+3 workspace 3
 bindsym $mod+4 workspace 4
 bindsym $mod+5 workspace 5
-bindsym $mod+6 workspace 6
+bindsym $mod+6 workspace 6: Tools
 bindsym $mod+7 workspace 7: Music
 bindsym $mod+8 workspace 8: Mail
 bindsym $mod+9 workspace 9: Steam
 bindsym $mod+0 workspace 10: Chats
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace 1
-bindsym $mod+Shift+2 move container to workspace 2
+bindsym $mod+Shift+1 move container to workspace 1: Main
+bindsym $mod+Shift+2 move container to workspace 2: Terminal
 bindsym $mod+Shift+3 move container to workspace 3
 bindsym $mod+Shift+4 move container to workspace 4
 bindsym $mod+Shift+5 move container to workspace 5
-bindsym $mod+Shift+6 move container to workspace 6
+bindsym $mod+Shift+6 move container to workspace 6: Tools
 bindsym $mod+Shift+7 move container to workspace 7: Music
 bindsym $mod+Shift+8 move container to workspace 8: Mail
 bindsym $mod+Shift+9 move container to workspace 9: Steam

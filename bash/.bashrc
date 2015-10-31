@@ -14,9 +14,9 @@ set -o vi
 
 #various aliases
 alias ls='ls --color=auto -1'
-alias todo='~/ownCloud/tasks/todo.sh -c -d ~/ownCloud/tasks/todo.cfg'
+alias todo='~/02_documents/tasks/todo.sh -c -d ~/02_documents/tasks/todo.cfg'
 alias tv='terminal_velocity'
-alias notes='ranger /home/andreas/ownCloud/notes'
+alias notes='ranger /home/andreas/02_documents/notes'
 alias i3config='vim .i3/config'
 
 # aliases for  ssh connections
@@ -29,6 +29,7 @@ alias elinor='ssh andreas@192.168.1.2'
 ## Netherland Servers
 alias testserver='ssh root@185.13.224.208'
 alias server='mosh nebucatnetzer@159.253.3.136'
+alias backup_server='scp nebucatnetzer@159.253.3.136:/home/nebucatnetzer/*.tar.gz /home/andreas/01_inbox/'
 
 PS1='[\u@\h \W]\$ '
 
