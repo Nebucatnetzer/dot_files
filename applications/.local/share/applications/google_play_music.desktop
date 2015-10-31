@@ -4,7 +4,7 @@
 Version=1.0
 Terminal=false
 Type=Application
-Name=Google Play Music
+Name=Music
 Exec=/usr/bin/chromium --profile-directory=Default --app-id=icppfcnhkcmnfdhfhphakoifcfokfdhg
 Icon=chrome-fahmaaghhglfmonjliepjlchgpgfmobi-Default
 StartupWMClass=crx_icppfcnhkcmnfdhfhphakoifcfokfdhg
