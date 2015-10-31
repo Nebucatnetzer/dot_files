@@ -4,8 +4,7 @@ stow -t /home/andreas applications
 stow -t /home/andreas bash
 stow -t /home/andreas filezilla
 stow -t /home/andreas geany
-stow -t /home/andreas i3_laptop
-stow -t /home/andreas ranger
+stow -t /home/andreas i3
 stow -t /home/andreas remarkable
 stow -t /home/andreas terminator
 stow -t /home/andreas themes
