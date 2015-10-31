@@ -9,24 +9,23 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-#My Autostart script
+#My Configs
 exec ~/.i3/autostart
 
-# Application specific settings
-for_window [title="Xfce4-notifyd"] floating enable
+# defines which windows are floating
+for_window [title="xfce4-notifyd"] floating enable
 for_window [class="I3-exit"] floating enable
 for_window [title="File Operation Progress"] floating enable
-for_window [class="arma3.i386"] floating enable
 
 # removes the title bar
 for_window [class="^.*"] border pixel 1
 
-# enable switching between "new" and "old" screen
+# enable switching between "new" and "old" screen                                                                         
 workspace_auto_back_and_forth yes
 
 # removes the outer lines
 hide_edge_borders both
-    
+
 # move specific windows to specific screens
 assign [instance="crx_hnpfjngllnobngcgfapefoaidbinmjnm"] 10: Chats
 assign [instance="crx_icppfcnhkcmnfdhfhphakoifcfokfdhg"] 7: Music
@@ -36,41 +35,30 @@ assign [class="Geary"] 8: Mail
 assign [class="Qtodotxt"] 6: Tools
 assign [class="keepassx"] 6: Tools
 
-# custom keybindings
+# focus follows mouse
+focus_follows_mouse no
+
+# keybinding for launching applications
 bindsym $mod+x exec exit_script
 bindsym $mod+s exec search
 bindsym $mod+w exec chromium
-bindsym $mod+e exec terminator -x vim 01_inbox/draft.md 
-bindsym $mod+f exec thunar 
+bindsym $mod+e exec terminator -x vim 
+bindsym $mod+f exec thunar
 bindsym $mod+Return exec terminator
-bindsym $mod+Scroll_Lock exec i3lock -c 000000
+bindsym $mod+d exec j4-dmenu-desktop  --dmenu='rofi -dmenu'
+bindsym $mod+c exec i3lock -c 000000
 bindsym $mod+m exec vlc
 bindsym $mod+t exec geary
 
-# Sound and Media controls
-
 # Pulse Audio controls
 bindsym $mod+F3 exec pactl set-sink-volume 0 +5%
-bindsym $mod+F2 exec pactl set-sink-volume 0 -5% 
+bindsym $mod+F2 exec pactl set-sink-volume 0 -5%                 
 bindsym $mod+F1 exec pactl set-sink-mute 0 toggle
 
-# Media player controls
-bindsym XF86AudioPlay exec playerctl play
-bindsym XF86AudioPause exec playerctl pause
-bindsym XF86AudioNext exec playerctl next
-bindsym XF86AudioPrev exec playerctl previous
-
-# bind workspaces to a specific monitor
-workspace "1: Main" output DVI-I-1
-workspace "2: Lookup" output DVI-D-0
-workspace "3: Terminal" output DVI-I-1
-workspace "7: Music" output DVI-D-0
-workspace "9: Steam" output DVI-D-0
-workspace "10: Chats" output DVI-D-0
-
+# Touchpad controls
+bindsym XF86TouchpadToggle exec /home/andreas/.i3/toggletouchpad.sh
 
 #default stuff begins
-
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -101,10 +89,10 @@ bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
 # split in horizontal orientation
-bindsym $mod+c split h
+bindsym $mod+Shift+z split h
 
 # split in vertical orientation
-bindsym $mod+v split v
+bindsym $mod+Shift+v split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+Shift+f fullscreen
@@ -120,18 +108,12 @@ bindsym $mod+Shift+space floating toggle
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
 
-# focus the parent container
-bindsym $mod+a focus parent
-
-# focus the child container
-#bindsym $mod+d focus child
-
 # switch to workspace
 bindsym $mod+1 workspace 1: Main
-bindsym $mod+2 workspace 2: LookUp
-bindsym $mod+3 workspace 3: Terminal
-bindsym $mod+4 workspace 4: TV
-bindsym $mod+5 workspace 5: Todo
+bindsym $mod+2 workspace 2: Terminal
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
+bindsym $mod+5 workspace 5
 bindsym $mod+6 workspace 6: Tools
 bindsym $mod+7 workspace 7: Music
 bindsym $mod+8 workspace 8: Mail
@@ -140,10 +122,10 @@ bindsym $mod+0 workspace 10: Chats
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace 1: Main
-bindsym $mod+Shift+2 move container to workspace 2: LookUp
-bindsym $mod+Shift+3 move container to workspace 3: Terminal
-bindsym $mod+Shift+4 move container to workspace 4: TV
-bindsym $mod+Shift+5 move container to workspace 5: Todo
+bindsym $mod+Shift+2 move container to workspace 2: Terminal
+bindsym $mod+Shift+3 move container to workspace 3
+bindsym $mod+Shift+4 move container to workspace 4
+bindsym $mod+Shift+5 move container to workspace 5
 bindsym $mod+Shift+6 move container to workspace 6: Tools
 bindsym $mod+Shift+7 move container to workspace 7: Music
 bindsym $mod+Shift+8 move container to workspace 8: Mail
@@ -154,8 +136,6 @@ bindsym $mod+Shift+0 move container to workspace 10: Chats
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
-# exit i3 (logs you out of your X session)
-bindsym $Ctrl+Alt+Del exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -188,6 +168,5 @@ bindsym $mod+r mode "resize"
 bar {
     status_command i3status
 	position top
-    tray_output DVI-I-1
     font pango:Source Code Pro 12
 }
