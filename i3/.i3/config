@@ -46,6 +46,7 @@ bindsym $mod+Return exec terminator
 bindsym $mod+Scroll_Lock exec i3lock -c 000000
 bindsym $mod+m exec vlc
 bindsym $mod+t exec geary
+bindsym $mod+d exec j4-dmenu-desktop  --dmenu='rofi -dmenu'
 
 # Sound and Media controls
 

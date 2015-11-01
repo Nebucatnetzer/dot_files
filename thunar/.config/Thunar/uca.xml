@@ -57,10 +57,11 @@
 <action>
 	<icon></icon>
 	<name>Edit with vim</name>
-	<unique-id>1437228406080970-1</unique-id>
+	<unique-id>1446401701705476-1</unique-id>
 	<command>terminator -x vim %f</command>
 	<description></description>
 	<patterns>*</patterns>
+	<other-files/>
 	<text-files/>
 </action>
 </actions>
