@@ -32,7 +32,7 @@ numlockx on &
 clipit &
 
 # start xflux to minimise eye strain
-xflux -l 47.188247 -g 7.703133 &
+redshift -l 47.188247:7.703133 &
 
 ## lock screen on suspend
 xss-lock -- i3lock -c 000000 &

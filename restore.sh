@@ -14,3 +14,4 @@ stow -t /home/andreas vlc
 stow -t /home/andreas fonts
 stow -t /home/andreas bin
 stow -t /home/andreas xprofile 
+stow -t /home/andreas gtk3
