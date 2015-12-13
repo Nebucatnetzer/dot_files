@@ -1,0 +1,9 @@
+[NotebookList]
+Default=
+1=~/02_documents/notes
+
+[Notebook 1]
+uri=~/02_documents/notes
+name=Private_Notes
+interwiki=None
+icon=None

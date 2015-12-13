@@ -32,8 +32,8 @@ assign [instance="crx_icppfcnhkcmnfdhfhphakoifcfokfdhg"] 7: Music
 assign [instance="crx_nckgahadagoaajjgafhacjanaoiihapd"] 10: Chats
 assign [class="Steam"] 9: Steam
 assign [class="Geary"] 8: Mail
-assign [class="Qtodotxt"] 6: Tools
 assign [class="keepassx"] 6: Tools
+assign [class="Zim"] 2: Wiki
 
 # focus follows mouse
 focus_follows_mouse no
@@ -110,7 +110,7 @@ bindsym $mod+space focus mode_toggle
 
 # switch to workspace
 bindsym $mod+1 workspace 1: Main
-bindsym $mod+2 workspace 2: Terminal
+bindsym $mod+2 workspace 2: Wiki
 bindsym $mod+3 workspace 3
 bindsym $mod+4 workspace 4
 bindsym $mod+5 workspace 5
@@ -122,7 +122,7 @@ bindsym $mod+0 workspace 10: Chats
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace 1: Main
-bindsym $mod+Shift+2 move container to workspace 2: Terminal
+bindsym $mod+Shift+2 move container to workspace 2: Wiki
 bindsym $mod+Shift+3 move container to workspace 3
 bindsym $mod+Shift+4 move container to workspace 4
 bindsym $mod+Shift+5 move container to workspace 5

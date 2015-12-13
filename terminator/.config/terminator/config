@@ -19,6 +19,7 @@
     allow_bold = False
     background_darkness = 0.79
     background_image = /home/andreas/Pictures/wallpapers/sience_fiction/1195932813390.jpg
+    background_type = transparent
     cursor_color = "#ffffff"
     font = Source Code Pro 14
     foreground_color = "#ffffff"

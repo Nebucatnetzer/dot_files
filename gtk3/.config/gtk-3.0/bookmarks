@@ -1,4 +1,7 @@
+file:///home/andreas/01_Inbox
+file:///home/andreas/02_documents
+file:///home/andreas/03_working
 file:///home/andreas/ownCloud
-smb://elinor/documents/
-smb://elinor/media/
-smb://elinor/various/
+smb://192.168.1.2/documents/
+smb://192.168.1.2/media/
+smb://192.168.1.2/various/

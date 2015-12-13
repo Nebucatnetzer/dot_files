@@ -48,3 +48,9 @@ sleep 10s && owncloud &
 
 ## start geary deamon
 geary --hidden &
+
+## Zim Wiki
+zim &
+
+## KeepassX
+keepassx &
