@@ -33,8 +33,9 @@ assign [instance="crx_icppfcnhkcmnfdhfhphakoifcfokfdhg"] 7: Music
 assign [instance="crx_nckgahadagoaajjgafhacjanaoiihapd"] 10: Chats
 assign [class="Steam"] 9: Steam
 assign [class="Geary"] 8: Mail
-assign [class="Qtodotxt"] 6: Tools
 assign [class="keepassx"] 6: Tools
+assign [class="Zim"] 2: Wiki
+
 
 # custom keybindings
 bindsym $mod+x exec exit_script
@@ -63,8 +64,7 @@ bindsym XF86AudioPrev exec playerctl previous
 
 # bind workspaces to a specific monitor
 workspace "1: Main" output DVI-I-1
-workspace "2: Lookup" output DVI-D-0
-workspace "3: Terminal" output DVI-I-1
+workspace "2: Wiki" output DVI-D-0
 workspace "7: Music" output DVI-D-0
 workspace "9: Steam" output DVI-D-0
 workspace "10: Chats" output DVI-D-0
@@ -129,10 +129,10 @@ bindsym $mod+a focus parent
 
 # switch to workspace
 bindsym $mod+1 workspace 1: Main
-bindsym $mod+2 workspace 2: LookUp
-bindsym $mod+3 workspace 3: Terminal
-bindsym $mod+4 workspace 4: TV
-bindsym $mod+5 workspace 5: Todo
+bindsym $mod+2 workspace 2: Wiki
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
+bindsym $mod+5 workspace 5
 bindsym $mod+6 workspace 6: Tools
 bindsym $mod+7 workspace 7: Music
 bindsym $mod+8 workspace 8: Mail
@@ -141,10 +141,10 @@ bindsym $mod+0 workspace 10: Chats
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace 1: Main
-bindsym $mod+Shift+2 move container to workspace 2: LookUp
-bindsym $mod+Shift+3 move container to workspace 3: Terminal
-bindsym $mod+Shift+4 move container to workspace 4: TV
-bindsym $mod+Shift+5 move container to workspace 5: Todo
+bindsym $mod+Shift+2 move container to workspace 2: Wiki
+bindsym $mod+Shift+3 move container to workspace 3
+bindsym $mod+Shift+4 move container to workspace 4
+bindsym $mod+Shift+5 move container to workspace 5
 bindsym $mod+Shift+6 move container to workspace 6: Tools
 bindsym $mod+Shift+7 move container to workspace 7: Music
 bindsym $mod+Shift+8 move container to workspace 8: Mail
