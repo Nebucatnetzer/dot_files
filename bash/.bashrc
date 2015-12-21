@@ -28,8 +28,8 @@ alias capricorn='ssh andreas@5.172.131.120'
 alias elinor='ssh andreas@192.168.1.2'
 
 ## Netherland Servers
-alias testserver='ssh nebucatnetzer@185.13.224.208'
-alias server='mosh nebucatnetzer@159.253.3.136'
+alias testserver='ssh -p 2222 nebucatnetzer@185.13.224.208'
+alias server='ssh -p 2222 nebucatnetzer@159.253.3.136'
 alias backup_server='scp nebucatnetzer@159.253.3.136:/home/nebucatnetzer/*.tar.gz /home/andreas/01_inbox/'
 
 PS1='[\u@\h \W]\$ '

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=arch_linux
+Comment=Starts the VirtualBox machine arch_linux
+Type=Application
+Exec=/usr/lib/virtualbox/VirtualBox --comment "arch_linux" --startvm "a750bf5a-89a0-4fc0-ba13-57a29f10ef01"
+Icon=virtualbox-vbox.png

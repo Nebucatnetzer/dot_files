@@ -15,4 +15,5 @@ stow -t /home/andreas fonts
 stow -t /home/andreas bin
 stow -t /home/andreas xprofile
 stow -t /home/andreas gtk3
+stow -t /home/andreas user_dirs
 sudo stow -t / zim
