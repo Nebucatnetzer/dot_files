@@ -945,10 +945,10 @@ qt-privacy-ask=0
 [adjust] # Image properties filter
 
 # Image contrast (0-2) (float)
-#contrast=1.000000
+contrast=0.750000
 
 # Image brightness (0-2) (float)
-#brightness=1.000000
+brightness=1.040000
 
 # Image hue (0-360) (integer)
 #hue=0
@@ -3770,7 +3770,7 @@ qt-privacy-ask=0
 #vout=
 
 # Video filter module (string)
-#video-filter=
+video-filter=adjust
 
 # Video splitter module (string)
 #video-splitter=

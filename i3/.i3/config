@@ -41,7 +41,7 @@ assign [class="Zim"] 2: Wiki
 bindsym $mod+x exec exit_script
 bindsym $mod+s exec search
 bindsym $mod+w exec chromium
-bindsym $mod+e exec terminator -x vim 01_inbox/draft.md 
+bindsym $mod+e exec terminator -x vim 01_inbox/draft.txt
 bindsym $mod+f exec thunar 
 bindsym $mod+Return exec terminator
 bindsym $mod+Scroll_Lock exec i3lock -c 000000
