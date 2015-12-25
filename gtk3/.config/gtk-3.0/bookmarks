@@ -1,6 +1,4 @@
-file:///home/andreas/01_Inbox
-file:///home/andreas/ownCloud
-file:///mnt/virtualbox
+sftp://pfannedechu.ch:2222/
 smb://192.168.1.2/documents/
 smb://192.168.1.2/media/
 smb://192.168.1.2/various/

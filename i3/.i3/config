@@ -58,6 +58,10 @@ bindsym $mod+F1 exec pactl set-sink-mute 0 toggle
 # Touchpad controls
 bindsym XF86TouchpadToggle exec /home/andreas/.i3/toggletouchpad.sh
 
+# Keyboard light control
+bindsym XF86KbdBrightnessUp exec /home/andreas/.i3/brightness_up
+bindsym XF86KbdBrightnessDown exec /home/andreas/.i3/brightness_down
+
 #default stuff begins
 set $mod Mod4
 
