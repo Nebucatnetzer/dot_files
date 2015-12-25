@@ -3,12 +3,11 @@
 Type=Application
 Version=1.0
 GenericName=
-Name=VIm
+Name=Vim
 Comment=
 Exec=terminator -x vim
 TryExec=
 Icon=
 MimeType=text/plain
 Terminal=false
-NoDisplay=true
 
