@@ -13,4 +13,4 @@ image/gif=wine-extension-gif.desktop;
 image/jpeg=wine-extension-jpe.desktop;wine-extension-jfif.desktop;
 image/png=wine-extension-png.desktop;
 text/html=wine-extension-htm.desktop;
-text/plain=wine-extension-txt.desktop;
+text/plain=wine-extension-txt.desktop;;vim-usercreated.desktop

@@ -1,0 +1,5 @@
+[Default Applications]
+text/plain=vim-usercreated.desktop
+
+inode/directory=Thunar.desktop
+x-directory/normal=Thunar.desktop
