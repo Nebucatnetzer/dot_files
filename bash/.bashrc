@@ -32,6 +32,11 @@ alias testserver='ssh -p 2222 nebucatnetzer@185.13.224.208'
 alias server='ssh -p 2222 nebucatnetzer@159.253.3.136'
 alias backup_server='scp nebucatnetzer@159.253.3.136:/home/nebucatnetzer/*.tar.gz /home/andreas/01_inbox/'
 
+## Virtual Machines
+alias arch_server='ssh andreas@192.1.1.2'
+alias ubuntu_server='ssh andreas@192.1.3.2'
+alias debian_server='ssh andreas@192.1.2.2'
+
 PS1='[\u@\h \W]\$ '
 
 # function Extract for common file formats

@@ -16,7 +16,8 @@ exec ~/.i3/autostart
 for_window [title="xfce4-notifyd"] floating enable
 for_window [class="I3-exit"] floating enable
 for_window [title="File Operation Progress"] floating enable
-
+for_window [instance="crx_nckgahadagoaajjgafhacjanaoiihapd"] layout tabbed
+for_window [instance="crx_hnpfjngllnobngcgfapefoaidbinmjnm"] layout tabbed
 # removes the title bar
 for_window [class="^.*"] border pixel 1
 
