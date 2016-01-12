@@ -3770,7 +3770,7 @@ brightness=1.040000
 #vout=
 
 # Video filter module (string)
-video-filter=adjust
+video-filter=adjust:anaglyph
 
 # Video splitter module (string)
 #video-splitter=
