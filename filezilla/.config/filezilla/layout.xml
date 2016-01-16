@@ -14,7 +14,7 @@
 			<xrc file="netconfwizard.xrc" date="1449474362" />
 		</Resources>
 		<Language id="default" date="">
-			<Font font="Droid Sans 12" width="908" height="19" />
+			<Font font="Cantarell 11" width="835" height="20" />
 		</Language>
 	</Layout>
 </FileZilla3>
