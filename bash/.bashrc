@@ -29,10 +29,10 @@ alias capricorn='ssh andreas@5.172.131.120'
 alias elinor='ssh andreas@192.168.1.2'
 
 ## Netherland Servers
-alias testserver='ssh -p 2222 nebucatnetzer@185.13.224.208'
+alias testserver='ssh root@159.253.5.127'
 alias server='ssh -p 2222 nebucatnetzer@159.253.3.136'
-alias backup_server='scp nebucatnetzer@159.253.3.136:/home/nebucatnetzer/*.tar.gz /home/andreas/01_inbox/'
-
+alias backup_server='rsync -azP -e "ssh -p 2222" nebucatnetzer@2li.ch:/home/nebucatnetzer/*.tar.gz /home/andreas/01_inbox/'
+alias vpnserver='ssh -p 2222 nebucatnetzer@159.253.5.123'
 PS1='[\u@\h \W]\$ '
 
 # function Extract for common file formats
