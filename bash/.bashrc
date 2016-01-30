@@ -20,8 +20,12 @@ alias aur_packages='pacman -Qqm'
 
 # aliases for  ssh connections
 
+## VMs
+alias arch_linux_vm='ssh -p 2022 andreas@localhost'
+alias ubuntu_vm='ssh -p 3022 andreas@localhost'
+alias debian_vm='ssh -p 4022 andreas@localhost'
+
 ## schweizer server
-alias swiss_server='ssh nebucatnetzer@185.16.173.105'
 alias elinor='ssh andreas@192.168.1.2'
 
 ## Netherland Servers
