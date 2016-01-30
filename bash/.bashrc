@@ -14,9 +14,6 @@ set -o vi
 
 #various aliases
 alias ls='ls --color=auto -1'
-alias todo='~/02_documents/tasks/todo.sh -c -d ~/02_documents/tasks/todo.cfg'
-alias tv='terminal_velocity'
-alias notes='ranger /home/andreas/02_documents/notes'
 alias i3config='vim .i3/config'
 alias installed_packages='pacman -Qqe'
 alias aur_packages='pacman -Qqm'
@@ -25,7 +22,6 @@ alias aur_packages='pacman -Qqm'
 
 ## schweizer server
 alias swiss_server='ssh nebucatnetzer@185.16.173.105'
-alias capricorn='ssh andreas@5.172.131.120'
 alias elinor='ssh andreas@192.168.1.2'
 
 ## Netherland Servers
