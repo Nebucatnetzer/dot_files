@@ -22,10 +22,7 @@ alias i3config='vim .i3/config'
 alias elinor='ssh andreas@192.168.1.2'
 
 ## Netherland Servers
-alias testserver='ssh -p 2222 nebucatnetzer@185.13.224.208'
-alias server='ssh -p 2222 nebucatnetzer@159.253.3.136'
-alias mosh_server='mosh --ssh="ssh -p 2222" nebucatnetzer@2li.ch'
-alias backup_server='scp nebucatnetzer@159.253.3.136:/home/nebucatnetzer/*.tar.gz /home/andreas/01_inbox/'
+alias testserver='ssh root@159.253.5.127'
 
 ## Virtual Machines
 alias arch_server='ssh andreas@192.1.1.2'
