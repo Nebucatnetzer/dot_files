@@ -18,3 +18,7 @@ set smartindent " indent based on the code syntax
 
 "General Settings
 set viminfo= "stops vim from spamming my home folder with tons of viminfo files
+
+" Custom Key Shortcuts
+map <Enter> o<ESC>
+map <S-Enter> O<ESC>
