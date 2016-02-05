@@ -12,7 +12,6 @@ general {
 }
 
 order += "disk /"
-order += "run_watch DHCP"
 order += "ethernet enp0s3"
 order += "volume master"
 order += "tztime local"
@@ -21,10 +20,6 @@ ethernet enp0s3 {
         # if you use %speed, i3status requires root privileges
         format_up = "E: %ip (%speed)"
         format_down = "E: down"
-}
-
-run_watch DHCP {
-        pidfile = "/var/run/dhclient*.pid"
 }
 
 

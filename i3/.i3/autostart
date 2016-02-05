@@ -1,6 +1,6 @@
 ## GNOME PolicyKit and Keyring
 eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
-exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+exec /usr/lib/polkit-1-gnome/polkit-gnome-authentication-agent-1 &
 
 ## Starting network manager applet
 nm-applet &
@@ -37,20 +37,8 @@ clipit &
 ## start xflux to minimise eye strain
 redshift -l 47.188247:7.703133 &
 
-## lock screen on suspend
-xss-lock -- i3lock -c 000000 &
-
 ## Turn on/off system beep
 xset b off &
 
-## Start the Pamac deamon to remind me to update
-pamac-tray &
-
 ## Starting the owncloud deamon
 sleep 10s && owncloud &
-
-## start geary deamon
-geary --hidden &
-
-## start Back in Time
-/bin/sh -c "backintime pw-cache start 2>&1 >/dev/null &
