@@ -16,7 +16,6 @@ exec ~/.i3/autostart
 for_window [title="Xfce4-notifyd"] floating enable
 for_window [class="I3-exit"] floating enable
 for_window [title="File Operation Progress"] floating enable
-for_window [class="arma3.i386"] floating enable
 
 # removes the title bar
 for_window [class="^.*"] border pixel 1
@@ -28,24 +27,18 @@ workspace_auto_back_and_forth yes
 hide_edge_borders both
     
 # move specific windows to specific screens
-assign [instance="crx_hnpfjngllnobngcgfapefoaidbinmjnm"] 10: Chats
-assign [instance="crx_icppfcnhkcmnfdhfhphakoifcfokfdhg"] 7: Music
-assign [instance="crx_nckgahadagoaajjgafhacjanaoiihapd"] 10: Chats
 assign [class="Steam"] 9: Steam
-assign [class="Geary"] 8: Mail
-assign [class="Qtodotxt"] 6: Tools
 assign [class="keepassx"] 6: Tools
 
 # custom keybindings
 bindsym $mod+x exec exit_script
 bindsym $mod+s exec search
-bindsym $mod+w exec chromium
+bindsym $mod+w exec firefox 
 bindsym $mod+e exec terminator -x vim 01_inbox/draft.md 
 bindsym $mod+f exec thunar 
 bindsym $mod+Return exec terminator
 bindsym $mod+Scroll_Lock exec i3lock -c 000000
 bindsym $mod+m exec vlc
-bindsym $mod+t exec geary
 bindsym $mod+d exec j4-dmenu-desktop  --dmenu='rofi -dmenu'
 
 # Sound and Media controls
@@ -60,15 +53,6 @@ bindsym XF86AudioPlay exec playerctl play
 bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
-
-# bind workspaces to a specific monitor
-workspace "1: Main" output DVI-I-1
-workspace "2: Lookup" output DVI-D-0
-workspace "3: Terminal" output DVI-I-1
-workspace "7: Music" output DVI-D-0
-workspace "9: Steam" output DVI-D-0
-workspace "10: Chats" output DVI-D-0
-
 
 #default stuff begins
 
@@ -189,6 +173,6 @@ bindsym $mod+r mode "resize"
 bar {
     status_command i3status
 	position top
-    tray_output DVI-I-1
+    tray_output VGA-0
     font pango:Source Code Pro 12
 }
