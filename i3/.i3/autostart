@@ -34,9 +34,6 @@ clipit &
 # start xflux to minimise eye strain
 redshift -l 47.188247:7.703133 &
 
-## lock screen on suspend
-xss-lock -- i3lock -c 000000 &
-
 ## Turn on/off system beep
 xset b off &
 
@@ -45,9 +42,6 @@ pamac-tray &
 
 ## Starting the owncloud deamon
 sleep 10s && owncloud &
-
-## start geary deamon
-geary --hidden &
 
 ## Zim Wiki
 zim &

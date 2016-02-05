@@ -25,9 +25,9 @@ alias elinor='ssh andreas@192.168.1.2'
 alias testserver='ssh root@159.253.5.127'
 
 ## Virtual Machines
-alias arch_server='ssh andreas@192.1.1.2'
-alias ubuntu_server='ssh andreas@192.1.3.2'
-alias debian_server='ssh andreas@192.1.2.2'
+alias arch_server='ssh -p 2022 andreas@localhost'
+alias ubuntu_server='ssh -p 3022 andreas@localhost'
+alias debian_server='ssh -p 4022 andreas@localhost'
 
 PS1='[\u@\h \W]\$ '
 

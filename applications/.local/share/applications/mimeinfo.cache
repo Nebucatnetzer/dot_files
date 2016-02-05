@@ -1,2 +1,4 @@
 [MIME Cache]
-text/plain=vim-usercreated.desktop
+application/x-ica=citrix.desktop;
+text/plain=vim-usercreated.desktop;
+x-scheme-handler/steam=steam.desktop;
