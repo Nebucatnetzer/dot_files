@@ -17,8 +17,6 @@ for_window [title="Xfce4-notifyd"] floating enable
 for_window [class="I3-exit"] floating enable
 for_window [title="File Operation Progress"] floating enable
 for_window [class="arma3.i386"] floating enable
-for_window [instance="crx_nckgahadagoaajjgafhacjanaoiihapd"] layout tabbed,
-for_window [instance="crx_hnpfjngllnobngcgfapefoaidbinmjnm"] layout tabbed,
 # removes the title bar
 for_window [class="^.*"] border pixel 1
 
@@ -33,21 +31,20 @@ assign [instance="crx_hnpfjngllnobngcgfapefoaidbinmjnm"] 10: Chats
 assign [instance="crx_icppfcnhkcmnfdhfhphakoifcfokfdhg"] 7: Music
 assign [instance="crx_nckgahadagoaajjgafhacjanaoiihapd"] 10: Chats
 assign [class="Steam"] 9: Steam
-assign [class="Geary"] 8: Mail
+assign [class="Evolution"] 8: Mail
 assign [class="keepassx"] 6: Tools
 assign [class="Zim"] 2: Wiki
-
+assign [class="Pidgin"] 10: Chats
 
 # custom keybindings
 bindsym $mod+x exec exit_script
 bindsym $mod+s exec search
-bindsym $mod+w exec chromium
+bindsym $mod+w exec firefox 
 bindsym $mod+e exec terminator -x vim 01_inbox/draft.txt
 bindsym $mod+f exec thunar 
 bindsym $mod+Return exec terminator
 bindsym $mod+Scroll_Lock exec i3lock -c 000000
 bindsym $mod+m exec vlc
-bindsym $mod+t exec geary
 bindsym $mod+d exec j4-dmenu-desktop  --dmenu='rofi -dmenu'
 
 # Sound and Media controls
