@@ -1,5 +1,5 @@
 ﻿###
-###  vlc 2.2.1
+###  vlc 2.2.2
 ###
 
 ###
@@ -236,7 +236,7 @@ qt-privacy-ask=0
 #sout-avi-subject=
 
 # Encoder (string)
-#sout-avi-encoder=VLC Media Player - 2.2.1 Terry Pratchett (Weatherwax)
+#sout-avi-encoder=VLC Media Player - 2.2.2 Weatherwax
 
 # Keywords (string)
 #sout-avi-keywords=
@@ -1845,7 +1845,7 @@ grain-variance=4.750000
 #audiobargraph_a-time_window=5000
 
 # Minimum Audio level to raise the alarm (float)
-#audiobargraph_a-alarm_threshold=0.100000
+#audiobargraph_a-alarm_threshold=0.020000
 
 # Time between two alarm messages in ms (integer)
 #audiobargraph_a-repetition_time=2000
