@@ -19,7 +19,7 @@ alias i3config='vim .i3/config'
 # aliases for  ssh connections
 
 ## schweizer server
-alias elinor='ssh andreas@192.168.1.2'
+alias elinor='ssh andreas@192.168.1.2 -t tmux a || tmux new'
 
 ## Netherland Servers
 alias testserver='ssh root@159.253.5.127'

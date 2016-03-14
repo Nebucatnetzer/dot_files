@@ -1,8 +1,8 @@
 file:///home/andreas/01_inbox
 file:///home/andreas/02_documents
 file:///home/andreas/03_working
-smb://192.168.1.2/documents/ documents
 file:///home/andreas/owncloud
+smb://192.168.1.2/documents/ documents
 smb://192.168.1.2/media/ media
 smb://192.168.1.2/various/ various
 sftp://nebucatnetzer@pfannedechu.ch:2222/ pfannedechu.ch
