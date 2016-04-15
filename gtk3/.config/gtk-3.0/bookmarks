@@ -1,4 +1,7 @@
-smb://192.168.1.2/documents/
-smb://192.168.1.2/media/
-smb://192.168.1.2/various/
+file:///home/andreas/01_inbox
+file:///home/andreas/02_documents
+file:///home/andreas/03_working
+smb://192.168.1.10/documents/
+smb://192.168.1.10/media/
+smb://192.168.1.10/various/
 file:///home/andreas/ownCloud

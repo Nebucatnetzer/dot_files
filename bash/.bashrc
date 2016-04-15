@@ -18,12 +18,9 @@ alias i3config='vim .i3/config'
 
 # aliases for  ssh connections
 
-## schweizer server
-alias elinor='ssh andreas@192.168.1.2'
+# schweizer server
+alias finoglio='ssh -p 2222 andreas@192.168.1.10'
 
-## Netherland Servers
-alias testserver='ssh root@159.253.5.127'
-alias backup_server='scp nebucatnetzer@159.253.3.136:/home/nebucatnetzer/*.tar.gz /home/andreas/01_inbox/'
 
 PS1='[\u@\h \W]\$ '
 

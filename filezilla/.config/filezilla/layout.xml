@@ -1,20 +1,21 @@
-<?xml version="1.0"?>
-<FileZilla3 version="3.14.0" platform="*nix">
-	<Layout Builddate="2015-09-18" Buildtime="09:32:31">
-		<Resources>
-			<xrc file="quickconnectbar.xrc" date="1442561618" />
-			<xrc file="certificate.xrc" date="1442561618" />
-			<xrc file="dialogs.xrc" date="1442561618" />
-			<xrc file="sitemanager.xrc" date="1442561618" />
-			<xrc file="toolbar.xrc" date="1442561618" />
-			<xrc file="inputdialog.xrc" date="1442561618" />
-			<xrc file="menus.xrc" date="1442561618" />
-			<xrc file="settings.xrc" date="1442561618" />
-			<xrc file="update.xrc" date="1442561618" />
-			<xrc file="netconfwizard.xrc" date="1442561618" />
-		</Resources>
-		<Language id="default" date="">
-			<Font font="Roboto 12" width="857" height="18" />
-		</Language>
-	</Layout>
+<?xml version="1.0" ?>
+<FileZilla3 version="3.12.0.2" platform="*nix">
+    <Layout Builddate="2015-12-18" Buildtime="00:01:55">
+        <Resources>
+            <xrc file="quickconnectbar.xrc" date="1450397459" />
+            <xrc file="certificate.xrc" date="1450397459" />
+            <xrc file="dialogs.xrc" date="1450397459" />
+            <xrc file="sitemanager.xrc" date="1450397459" />
+            <xrc file="toolbar.xrc" date="1450397459" />
+            <xrc file="inputdialog.xrc" date="1450397459" />
+            <xrc file="menus.xrc" date="1450397459" />
+            <xrc file="settings.xrc" date="1450397459" />
+            <xrc file="update.xrc" date="1450397459" />
+            <xrc file="netconfwizard.xrc" date="1450397459" />
+        </Resources>
+        <Language id="default" date="">
+            <Font font="Droid Sans 12" width="910" height="19" />
+            <Dialog name="Site Manager" width="710" />
+        </Language>
+    </Layout>
 </FileZilla3>
