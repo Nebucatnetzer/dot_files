@@ -43,8 +43,5 @@ pamac-tray &
 ## Starting the owncloud deamon
 sleep 10s && owncloud &
 
-## Zim Wiki
-zim &
-
 ## KeepassX
 keepassx &

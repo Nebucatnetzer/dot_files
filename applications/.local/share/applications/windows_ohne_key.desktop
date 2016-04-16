@@ -1,8 +1,0 @@
-[Desktop Entry]
-Encoding=UTF-8
-Version=1.0
-Name=windows_ohne_key
-Comment=Starts the VirtualBox machine windows_ohne_key
-Type=Application
-Exec=/usr/lib/virtualbox/VirtualBox --comment "windows_ohne_key" --startvm "ba73fef4-7a59-4e58-9cfe-10999fc4f033"
-Icon=virtualbox-vbox.png

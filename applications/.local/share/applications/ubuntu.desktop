@@ -1,8 +1,0 @@
-[Desktop Entry]
-Encoding=UTF-8
-Version=1.0
-Name=ubuntu
-Comment=Starts the VirtualBox machine ubuntu
-Type=Application
-Exec=/usr/lib/virtualbox/VirtualBox --comment "ubuntu" --startvm "df6d5667-b7f2-46fc-ae7b-4f74057ace26"
-Icon=virtualbox-vbox.png
