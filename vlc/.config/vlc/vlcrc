@@ -945,16 +945,16 @@ qt-privacy-ask=0
 [adjust] # Image properties filter
 
 # Image contrast (0-2) (float)
-contrast=1.030000
+contrast=0.920000
 
 # Image brightness (0-2) (float)
-brightness=1.020000
+brightness=1.030000
 
 # Image hue (0-360) (integer)
 #hue=0
 
 # Image saturation (0-3) (float)
-saturation=1.490000
+saturation=1.200000
 
 # Image gamma (0-10) (float)
 #gamma=1.000000
@@ -3770,7 +3770,7 @@ grain-variance=4.750000
 #vout=
 
 # Video filter module (string)
-video-filter=grain
+video-filter=grain:adjust
 
 # Video splitter module (string)
 #video-splitter=
@@ -4055,7 +4055,7 @@ video-filter=grain
 #inhibit=1
 
 # Play files randomly forever (boolean)
-#random=0
+random=1
 
 # Repeat all (boolean)
 #loop=0

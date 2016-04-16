@@ -1,21 +1,22 @@
 <?xml version="1.0"?>
-<FileZilla3 version="3.16.0" platform="*nix">
-	<Layout Builddate="2016-03-01" Buildtime="10:22:12">
+<FileZilla3 version="3.16.1" platform="*nix">
+	<Layout Builddate="2016-03-17" Buildtime="19:31:05">
 		<Resources>
-			<xrc file="quickconnectbar.xrc" date="1456824172" />
-			<xrc file="certificate.xrc" date="1456824172" />
-			<xrc file="dialogs.xrc" date="1456824172" />
-			<xrc file="sitemanager.xrc" date="1456824172" />
-			<xrc file="toolbar.xrc" date="1456824172" />
-			<xrc file="inputdialog.xrc" date="1456824172" />
-			<xrc file="menus.xrc" date="1456824172" />
-			<xrc file="settings.xrc" date="1456824172" />
-			<xrc file="update.xrc" date="1456824172" />
-			<xrc file="netconfwizard.xrc" date="1456824172" />
+			<xrc file="quickconnectbar.xrc" date="1458239507" />
+			<xrc file="certificate.xrc" date="1458239507" />
+			<xrc file="dialogs.xrc" date="1458239507" />
+			<xrc file="sitemanager.xrc" date="1458239507" />
+			<xrc file="toolbar.xrc" date="1458239507" />
+			<xrc file="inputdialog.xrc" date="1458239507" />
+			<xrc file="menus.xrc" date="1458239507" />
+			<xrc file="settings.xrc" date="1458239507" />
+			<xrc file="update.xrc" date="1458239507" />
+			<xrc file="netconfwizard.xrc" date="1458239507" />
 		</Resources>
 		<Language id="default" date="">
 			<Font font="Roboto 12" width="904" height="19" />
 			<Dialog name="Site Manager" width="703" />
+			<Dialog name="Settings" width="583" />
 		</Language>
 	</Layout>
 </FileZilla3>

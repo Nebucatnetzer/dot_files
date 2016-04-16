@@ -20,17 +20,12 @@ alias aur_packages='pacman -Qqm'
 
 # aliases for  ssh connections
 
-## VMs
-alias arch_linux_vm='ssh -p 2022 andreas@localhost'
-alias ubuntu_vm='ssh -p 3022 andreas@localhost'
-alias debian_vm='ssh -p 4022 andreas@localhost'
-
 ## schweizer server
-alias elinor='ssh andreas@192.168.1.2 -t "tmux a || tmux new"'
-alias testserver='ssh root@159.253.5.127'
+alias finoglio='ssh -p 2222 andreas@192.168.1.10'
+alias webserver='ssh -p 2222 andreas@192.168.1.11'
+alias openvpn_server='ssh -p 2222 andreas@192.168.1.13'
 alias server='ssh -p 2222 nebucatnetzer@159.253.3.136 -t "tmux a || tmux new"'
 alias backup_server='rsync -azP -e "ssh -p 2222" nebucatnetzer@2li.ch:/home/nebucatnetzer/*.tar.gz /home/andreas/01_inbox/'
-alias vpnserver='ssh -p 2222 nebucatnetzer@159.253.5.123 -t "tmux a || tmux new"'
 
 PS1='[\u@\h \W]\$ '
 
