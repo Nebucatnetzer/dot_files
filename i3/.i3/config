@@ -31,9 +31,11 @@ assign [instance="crx_hnpfjngllnobngcgfapefoaidbinmjnm"] 10: Chats
 assign [instance="crx_icppfcnhkcmnfdhfhphakoifcfokfdhg"] 7: Music
 assign [instance="crx_nckgahadagoaajjgafhacjanaoiihapd"] 10: Chats
 assign [class="Steam"] 9: Steam
-assign [class="Evolution"] 8: Mail
+assign [class="Thunderbird"] 8: Mail
 assign [class="keepassx"] 6: Tools
-assign [class="Zim"] 2: Wiki
+assign [class="Pidgin"] 10: Chats
+assign [class="Google Play Music Desktop Player"] 7: Music 
+assign [class="Whatsie"] 10: Chats
 assign [class="Pidgin"] 10: Chats
 
 # custom keybindings

@@ -25,7 +25,7 @@ alias finoglio='ssh -p 2222 andreas@192.168.1.10'
 alias webserver='ssh -p 2222 andreas@192.168.1.11'
 alias openvpn_server='ssh -p 2222 andreas@192.168.1.13'
 alias server='ssh -p 2222 nebucatnetzer@159.253.3.136 -t "tmux a || tmux new"'
-alias backup_server='rsync -azP -e "ssh -p 2222" nebucatnetzer@2li.ch:/home/nebucatnetzer/*.tar.gz /home/andreas/01_inbox/'
+alias backup_server='rsync -azP -e "ssh -p 2222" andreas@2li.ch:/home/nebucatnetzer/*.tar.gz /home/andreas/01_inbox/'
 
 PS1='[\u@\h \W]\$ '
 

@@ -16,5 +16,5 @@ stow -t /home/andreas bin
 stow -t /home/andreas xprofile
 stow -t /home/andreas gtk3 
 stow -t /home/andreas user_dirs
-sudo stow -t / zim
 stow -t /home/andreas backintime
+stow -t /home/andreas gummi

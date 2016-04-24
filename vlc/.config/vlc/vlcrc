@@ -3767,7 +3767,7 @@ grain-variance=4.750000
 #deinterlace-mode=blend
 
 # Video output module (string)
-#vout=
+vout=any
 
 # Video filter module (string)
 video-filter=grain:adjust
