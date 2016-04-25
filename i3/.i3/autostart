@@ -50,4 +50,4 @@ sleep 10s && owncloud &
 keepassx &
 
 ## start Back in Time
-#/bin/sh -c "backintime pw-cache start 2>&1 >/dev/null &
+/bin/sh -c "backintime pw-cache start 2>&1 >/dev/null &
