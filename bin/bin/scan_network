@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Puts the IP address of the first adapter into the variable $IP
+#IP=$(ip addr | grep 'state UP' -A2 | tail -n1 | awk '{print $2}' | cut -f1  -d'/')
+
+# scans the network of the first adapter and displays various information of it.
+sudo nmap --max-rtt-timeout 100ms -sn -T4 10.1.10-250.0/24 > clients_$(date +%Y%m%d_%H%M%S).txt
+sudo nmap --max-rtt-timeout 100ms -sS -O -T4 10.1.10-250.0/24 > nmap_$(date +%Y%m%d_%H%M%S).txt
