@@ -31,6 +31,7 @@ assign [class="keepassx"] 6: Tools
 assign [class="Google Play Music Desktop Player"] 7: Music
 assign [class="Whatsie"] 10: Chats
 assign [class="Thunderbird"] 8: Mail
+assign [class="Pidgin"] 8: Mail
 
 # custom keybindings
 bindsym $mod+x exec exit_script
