@@ -16,6 +16,8 @@ filetype indent on " indent based on the file ending
 set autoindent " automatically indent if previous line was indent
 set smartindent " indent based on the code syntax
 
+set colorcolumn=80
+
 "General Settings
 set viminfo= "stops vim from spamming my home folder with tons of viminfo files
 
