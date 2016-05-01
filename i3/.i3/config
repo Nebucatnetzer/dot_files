@@ -28,7 +28,10 @@ hide_edge_borders both
 # move specific windows to specific screens
 assign [class="Steam"] 9: Steam
 assign [class="keepassx"] 6: Tools
-assign [class="Zim"] 2: Wiki
+assign [class="Google Play Music Desktop Player"] 7: Music
+assign [class="Thunderbird"] 8: Mail
+assign [class="Pidgin"] 10: Chats
+assign [class="Whatsie"] 10: Chats
 
 # focus follows mouse
 focus_follows_mouse no
@@ -37,7 +40,7 @@ focus_follows_mouse no
 bindsym $mod+x exec exit_script
 bindsym $mod+s exec search
 bindsym $mod+w exec firefox 
-bindsym $mod+e exec terminator -x vim 
+bindsym $mod+e exec terminator -x vim ~/01_inbox/draft.txt
 bindsym $mod+f exec thunar
 bindsym $mod+Return exec terminator
 bindsym $mod+d exec j4-dmenu-desktop  --dmenu='rofi -dmenu'
@@ -108,7 +111,7 @@ bindsym $mod+space focus mode_toggle
 
 # switch to workspace
 bindsym $mod+1 workspace 1: Main
-bindsym $mod+2 workspace 2: Wiki
+bindsym $mod+2 workspace 2
 bindsym $mod+3 workspace 3
 bindsym $mod+4 workspace 4
 bindsym $mod+5 workspace 5
@@ -120,7 +123,7 @@ bindsym $mod+0 workspace 10: Chats
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace 1: Main
-bindsym $mod+Shift+2 move container to workspace 2: Wiki
+bindsym $mod+Shift+2 move container to workspace 2
 bindsym $mod+Shift+3 move container to workspace 3
 bindsym $mod+Shift+4 move container to workspace 4
 bindsym $mod+Shift+5 move container to workspace 5
