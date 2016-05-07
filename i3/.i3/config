@@ -43,7 +43,7 @@ bindsym $mod+w exec firefox
 bindsym $mod+e exec terminator -x vim ~/01_inbox/draft.txt
 bindsym $mod+f exec thunar
 bindsym $mod+Return exec terminator
-bindsym $mod+d exec j4-dmenu-desktop  --dmenu='rofi -dmenu'
+bindsym $mod+d exec j4-dmenu-desktop
 bindsym $mod+c exec i3lock -c 000000
 bindsym $mod+m exec vlc
 
