@@ -38,7 +38,6 @@ focus_follows_mouse no
 
 # keybinding for launching applications
 bindsym $mod+x exec exit_script
-bindsym $mod+s exec search
 bindsym $mod+w exec firefox 
 bindsym $mod+e exec terminator -x vim ~/01_inbox/draft.txt
 bindsym $mod+f exec thunar
@@ -46,6 +45,7 @@ bindsym $mod+Return exec terminator
 bindsym $mod+d exec ~/bin/j4-dmenu-desktop --no-generic --dmenu='rofi -i -dmenu'
 bindsym $mod+c exec i3lock -c 000000
 bindsym $mod+m exec vlc
+bindsym Mod1+Tab exec rofi -show window
 
 # Pulse Audio controls
 bindsym $mod+F3 exec pactl set-sink-volume 0 +5%

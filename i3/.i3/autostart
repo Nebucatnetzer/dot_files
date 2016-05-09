@@ -11,9 +11,6 @@ nm-applet &
 ## Set root window colour
 hsetroot -solid "#2E3436" &
 
-## start rofi with alt-tab for switching windows
-rofi -key-window alt-Tab &
-
 ## enable the compositor
 xcompmgr &
 
