@@ -1,6 +1,9 @@
 ## GNOME PolicyKit and Keyring
 eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
-exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+exec /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+
+synclient FingerLow=30 FingerHigh=35
+synclient TapButton1=1 TapButton2=3 TapButton3=2
 
 ## Starting network manager applet
 nm-applet &

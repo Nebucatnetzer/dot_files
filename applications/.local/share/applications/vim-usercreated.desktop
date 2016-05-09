@@ -3,7 +3,7 @@
 Type=Application
 Version=1.0
 GenericName=
-Name=Vim
+Name=Vim Terminal
 Comment=
 Exec=terminator -x vim
 TryExec=

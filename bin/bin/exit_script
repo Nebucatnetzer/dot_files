@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 #
 # Adapted from the original cb-exit script by <corenominal>
 #
@@ -49,7 +49,7 @@ class bl_exit:
 	def suspend_action(self,btn):
 		self.disable_buttons()
 		self.status.set_label("Suspending, please standby...")
-		os.system("cb-lock")
+		os.system("i3lock -c 000000")
 		os.system("systemctl suspend")
 		gtk.main_quit()
 

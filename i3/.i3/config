@@ -27,9 +27,9 @@ hide_edge_borders both
 
 # move specific windows to specific screens
 assign [class="Steam"] 9: Steam
-assign [class="keepassx"] 6: Tools
+assign [class="Keepassx"] 6: Tools
 assign [class="Google Play Music Desktop Player"] 7: Music
-assign [class="Thunderbird"] 8: Mail
+assign [class="Icedove"] 8: Mail
 assign [class="Pidgin"] 10: Chats
 assign [class="Whatsie"] 10: Chats
 
@@ -43,13 +43,13 @@ bindsym $mod+w exec firefox
 bindsym $mod+e exec terminator -x vim ~/01_inbox/draft.txt
 bindsym $mod+f exec thunar
 bindsym $mod+Return exec terminator
-bindsym $mod+d exec j4-dmenu-desktop
+bindsym $mod+d exec ~/bin/j4-dmenu-desktop --no-generic --dmenu='rofi -i -dmenu'
 bindsym $mod+c exec i3lock -c 000000
 bindsym $mod+m exec vlc
 
 # Pulse Audio controls
 bindsym $mod+F3 exec pactl set-sink-volume 0 +5%
-bindsym $mod+F2 exec pactl set-sink-volume 0 -5%                 
+bindsym $mod+F2 exec pactl -- set-sink-volume 0 -5%                 
 bindsym $mod+F1 exec pactl set-sink-mute 0 toggle
 
 # Touchpad controls

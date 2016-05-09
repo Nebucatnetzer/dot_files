@@ -1,4 +1,7 @@
 [MIME Cache]
+application/octet-stream=FoxitReader.desktop;
+application/pdf=FoxitReader.desktop;
+application/ppdf=FoxitReader.desktop;
 application/x-ica=citrix.desktop;
 text/plain=vim-usercreated.desktop;
 x-scheme-handler/steam=steam.desktop;
