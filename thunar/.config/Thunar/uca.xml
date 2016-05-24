@@ -57,7 +57,7 @@
 <action>
 	<icon></icon>
 	<name>Edit with vim</name>
-	<unique-id>1446401701705476-1</unique-id>
+	<unique-id>1464099634615249-2</unique-id>
 	<command>terminator -x vim %f</command>
 	<description></description>
 	<patterns>*</patterns>
@@ -67,7 +67,7 @@
 <action>
 	<icon></icon>
 	<name>Create Shortcut</name>
-	<unique-id>1463401060043039-2</unique-id>
+	<unique-id>1464099604293332-1</unique-id>
 	<command>ln -s %f &quot;Symlink to %n&quot;</command>
 	<description></description>
 	<patterns>*</patterns>
