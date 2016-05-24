@@ -27,11 +27,8 @@ workspace_auto_back_and_forth yes
 hide_edge_borders both
     
 # move specific windows to specific screens
-assign [instance="crx_hnpfjngllnobngcgfapefoaidbinmjnm"] 10: Chats
-assign [instance="crx_icppfcnhkcmnfdhfhphakoifcfokfdhg"] 7: Music
-assign [instance="crx_nckgahadagoaajjgafhacjanaoiihapd"] 10: Chats
 assign [class="Steam"] 9: Steam
-assign [class="Thunderbird"] 8: Mail
+assign [class="Evolution"] 8: Mail
 assign [class="keepassx"] 6: Tools
 assign [class="Pidgin"] 10: Chats
 assign [class="Google Play Music Desktop Player"] 7: Music 
@@ -47,7 +44,7 @@ bindsym $mod+f exec thunar
 bindsym $mod+Return exec terminator
 bindsym $mod+Scroll_Lock exec i3lock -c 000000
 bindsym $mod+m exec vlc
-bindsym $mod+d exec j4-dmenu-desktop  --dmenu='rofi -dmenu'
+bindsym $mod+d exec j4-dmenu-desktop --no-generic --dmenu='rofi -i -dmenu'
 
 # Sound and Media controls
 

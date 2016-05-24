@@ -64,4 +64,18 @@
 	<other-files/>
 	<text-files/>
 </action>
+<action>
+	<icon></icon>
+	<name>Create Shortcut</name>
+	<unique-id>1463401060043039-2</unique-id>
+	<command>ln -s %f &quot;Symlink to %n&quot;</command>
+	<description></description>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
 </actions>

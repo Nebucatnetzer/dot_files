@@ -6,6 +6,7 @@
 
 # environment variables
 export EDITOR=vim
+export BROWSER="firefox"
 export MAKEFLAGS='-j4'
 export USE_CCACHE=1
 export PATH=~/bin:$PATH
@@ -22,10 +23,18 @@ alias aur_packages='pacman -Qqm'
 
 ## schweizer server
 alias finoglio='ssh -p 2222 andreas@192.168.1.10'
-alias webserver='ssh -p 2222 andreas@192.168.1.11'
+alias apache-main='ssh andreas@192.168.1.100'
+alias owncloud-server='ssh -p 2222 andreas@192.168.1.101'
+alias ttrss='ssh andreas@192.168.1.102'
+alias wiki='ssh andreas@192.168.1.103'
+alias cms='ssh andreas@192.168.1.104'
+alias webmail='ssh andreas@192.168.1.105'
+alias tagspaces-server='ssh andreas@192.168.1.106'
+alias forum='ssh andreas@192.168.1.107'
+alias test-server='ssh andreas@192.168.1.150'
 alias openvpn_server='ssh -p 2222 andreas@192.168.1.13'
-alias server='ssh -p 2222 nebucatnetzer@159.253.3.136 -t "tmux a || tmux new"'
-alias backup_server='rsync -azP -e "ssh -p 2222" andreas@2li.ch:/home/nebucatnetzer/*.tar.gz /home/andreas/01_inbox/'
+alias server='ssh nebucatnetzer@159.253.3.136'
+alias backup_server='rsync -azP -e "ssh -p 2222" andreas@owncloud.2li.ch:/home/nebucatnetzer/*.tar.gz /home/andreas/01_inbox/'
 
 PS1='[\u@\h \W]\$ '
 

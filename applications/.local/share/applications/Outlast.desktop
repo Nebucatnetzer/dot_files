@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Outlast
-Comment=Play this game on Steam
-Exec=steam steam://rungameid/238320
-Icon=steam
-Terminal=false
-Type=Application
-Categories=Game;
