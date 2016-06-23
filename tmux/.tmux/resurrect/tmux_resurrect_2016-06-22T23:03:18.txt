@@ -1,0 +1,14 @@
+pane	0	0	:mutt	0	: 	0	:/home/andreas	1	mutt	:mutt
+pane	0	1	:control	0	: 	0	:/home/andreas	1	ssh	:ssh andreas@192.168.1.110
+pane	0	2	:fileserver	0	: 	0	:/home/andreas	1	ssh	:ssh borg@192.168.1.108
+pane	0	3	:python	0	:-	0	:/home/andreas/git_repos/math	0	bash	:
+pane	0	3	:python	0	:-	1	:/home/andreas/git_repos/math/renten_rechnung	1	bash	:
+pane	0	4	:nethack	0	: 	0	:/home/andreas	1	nethack-console	:/usr/lib/games/nethack/nethack-console
+pane	0	5	:bash	1	:*	0	:/home/andreas	1	bash	:
+window	0	0	0	: 	6557,174x47,0,0,18
+window	0	1	0	: 	5896,152x41,0,0,17
+window	0	2	0	: 	5894,152x41,0,0,15
+window	0	3	0	:-	6bc3,152x41,0,0{76x41,0,0,27,75x41,77,0,29}
+window	0	4	0	: 	e555,174x47,0,0,26
+window	0	5	1	:*	5893,152x41,0,0,33
+state	0	

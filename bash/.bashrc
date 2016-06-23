@@ -6,35 +6,40 @@
 
 # environment variables
 export EDITOR=vim
-export BROWSER="firefox"
 export MAKEFLAGS='-j4'
 export USE_CCACHE=1
 export PATH=~/bin:$PATH
 export TERM=xterm
+export LANG=en_GB.UTF-8 
+export RESTIC_REPOSITORY='sftp://andreas@192.168.1.108//mnt/sda/backup'
 set -o vi
 
 #various aliases
 alias ls='ls --color=auto -1'
 alias i3config='vim .i3/config'
-alias installed_packages='pacman -Qqe'
-alias aur_packages='pacman -Qqm'
 
-# aliases for  ssh connections
+#server aliases
 
-## schweizer server
-alias finoglio='ssh -p 2222 andreas@192.168.1.10'
-alias apache-main='ssh andreas@192.168.1.100'
-alias owncloud-server='ssh -p 2222 andreas@192.168.1.101'
-alias ttrss='ssh andreas@192.168.1.102'
-alias wiki='ssh andreas@192.168.1.103'
-alias cms='ssh andreas@192.168.1.104'
-alias webmail='ssh andreas@192.168.1.105'
-alias tagspaces-server='ssh andreas@192.168.1.106'
-alias forum='ssh andreas@192.168.1.107'
-alias test-server='ssh andreas@192.168.1.150'
-alias openvpn_server='ssh -p 2222 andreas@192.168.1.13'
-alias server='ssh nebucatnetzer@159.253.3.136'
-alias backup_server='rsync -azP -e "ssh -p 2222" andreas@owncloud.2li.ch:/home/nebucatnetzer/*.tar.gz /home/andreas/01_inbox/'
+## proxmox host
+alias finoglio='ssh finoglio.2li'
+alias vpn-server='ssh openvpn.2li'
+alias apache-main='ssh apache-main.2li'
+alias owncloud-server='ssh owncloud.2li'                       
+alias ttrss='ssh ttrss.2li' 
+alias wiki='ssh wiki.2li'
+alias cms='ssh cms.2li'
+alias webmail='ssh webmail.2li'
+alias forum='ssh forum.2li'
+alias fileserver='ssh fileserver.2li'
+alias control='ssh control.2li'
+
+alias list-servers='echo "apache-main, owncloud-server, ttrss,
+wiki, cms, webmail, fileserver, control"'
+
+## fsit
+
+alias virtualizor-1='ssh -p 2323 fsit@185.32.124.233'
+alias virtualizor-2='ssh -p 2323 fsit@185.32.124.232'
 
 PS1='[\u@\h \W]\$ '
 

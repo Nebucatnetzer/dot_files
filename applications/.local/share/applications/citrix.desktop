@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Citrix
-Comment="Launch Citrix applications from .ica files"
-Exec=/opt/Citrix/ICAClient/wfica /home/andreas/01_inbox/launch.ica
-Terminal=false
-Type=Application
-MimeType=application/x-ica;
