@@ -32,9 +32,11 @@ alias webmail='ssh webmail.2li'
 alias forum='ssh forum.2li'
 alias fileserver='ssh fileserver.2li'
 alias control='ssh control.2li'
+alias testserver='ssh test.2li'
+alias gitserver='ssh git.2li'
 
-alias list-servers='echo "apache-main, owncloud-server, ttrss,
-wiki, cms, webmail, fileserver, control"'
+alias list-servers='echo "finoglio, vpn-server, apache-main, owncloud-server, 
+ttrss, wiki, cms, webmail, fileserver, control, testserver"'
 
 ## fsit
 

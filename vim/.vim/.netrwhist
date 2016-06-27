@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/andreas/dot_files/vim/.vim/bundle'
+let g:netrw_dirhist_2='/home/andreas'
+let g:netrw_dirhist_3='/home/andreas/git_repos/latex/curriculum_vitae'
+let g:netrw_dirhist_4='/home/andreas/git_repos/latex'
